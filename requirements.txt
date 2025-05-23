@@ -1,0 +1,51 @@
+# Core dependencies for SignSpeak Edge AI
+
+# TensorFlow Lite for on-device inference
+tensorflow==2.13.0
+tflite-runtime==2.13.0
+
+# Computer Vision
+opencv-python==4.8.1.78
+mediapipe==0.10.5
+numpy==1.24.3
+Pillow==10.0.0
+
+# Audio processing
+pyttsx3==2.90
+SpeechRecognition==3.10.0
+pyaudio==0.2.11
+
+# GUI (Desktop version)
+PyQt5==5.15.9
+
+# Utilities
+scipy==1.11.1
+scikit-learn==1.3.0
+joblib==1.3.2
+
+# Performance monitoring
+psutil==5.9.5
+GPUtil==1.4.0
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+pytest-benchmark==4.0.0
+
+# Logging and monitoring
+coloredlogs==15.0.1
+tqdm==4.66.1
+
+# Configuration
+python-dotenv==1.0.0
+PyYAML==6.0.1
+
+# Development tools
+black==23.7.0
+flake8==6.1.0
+isort==5.12.0
+pre-commit==3.3.3
+
+# Android build tools (optional)
+# buildozer==1.5.0
+# python-for-android==2023.9.16
